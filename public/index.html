@@ -1,15 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css"> 
-</head>
-<body>
-    <div class="card">
-        <h1>QR Generátor</h1>
-        <form action="/generate" method="POST">
-            <input type="text" name="url" placeholder="URL helye..." required>
-            <button type="submit">Mehet!</button>
-        </form>
-    </div>
-</body>
-</html>
+<form action="/generate" method="POST">
+    <input type="text" name="url" placeholder="Paste URL here..." required>
+    <button type="submit">Generate</button>
+</form>
+
+<img src="/qr_img.png" alt="QR Code">
+
+<a href="/qr_img.png" download="my_qr_code.png">
+    <button>Download QR Code</button>
+</a><form action="/generate" method="POST">
+    <input type="text" name="url" placeholder="Paste URL here..." required>
+    <button type="submit">Generate</button>
+</form>
+
+<img src="/qr_img.png" alt="QR Code">
+
+<a href="/qr_img.png" download="my_qr_code.png">
+    <button>Download QR Code</button>
+</a>
