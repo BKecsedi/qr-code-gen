@@ -1,0 +1,25 @@
+/* Gamer stílus a Lenovo-dhoz */
+body {
+    background: #000;
+    color: #00ffcc; /* Neon zöld */
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border: 2px solid #00ffcc;
+    padding: 20px;
+    box-shadow: 0 0 15px #00ffcc;
+    border-radius: 10px;
+}
+
+button {
+    background: #00ffcc;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
