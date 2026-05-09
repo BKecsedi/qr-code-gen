@@ -1,5 +1,6 @@
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Generator</title>
     <link rel="stylesheet" href="/style.css">
 </head>
@@ -12,7 +13,7 @@
         </form>
 
         <div class="qr-result">
-            <img src="qr_img.png" alt="Your QR Code will appear here">
+            <img src="qr_img.png" alt="Your QR Code" onerror="this.style.display='none'" onload="this.style.display='block'">
             <br>
             <a href="qr_img.png" download class="download-btn">Download Image</a>
         </div>
