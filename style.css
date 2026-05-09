@@ -1,25 +1,61 @@
-/* Gamer stílus a Lenovo-dhoz */
 body {
     background: #000;
-    color: #00ffcc; /* Neon zöld */
+    color: #00ffcc; 
     font-family: 'Courier New', monospace;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px; 
+    box-sizing: border-box;
 }
 
 .container {
     border: 2px solid #00ffcc;
-    padding: 20px;
-    box-shadow: 0 0 15px #00ffcc;
+    padding: 30px;
+    box-shadow: 0 0 20px #00ffcc;
     border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px; 
+}
+
+input {
+    width: 100%; 
+    padding: 12px;
+    margin: 15px 0;
+    background: #111;
+    border: 1px solid #00ffcc;
+    color: #00ffcc;
+    box-sizing: border-box;
 }
 
 button {
+    width: 100%;
+    padding: 12px;
     background: #00ffcc;
     color: #000;
     border: none;
     cursor: pointer;
     font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #00ccaa;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    border: 1px solid #00ffcc;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 15px;
+    color: #00ffcc;
+    text-decoration: none;
+    font-size: 0.8rem;
 }
